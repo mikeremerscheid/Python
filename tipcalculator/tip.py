@@ -58,7 +58,7 @@ class TipCalculator():
         calculate_btn.grid(column=1,row=7,padx=15)   
         
         #clear button
-        clear_btn = Button(window,text="Clear", bg="black",fg="white")
+        clear_btn = Button(window,text="Clear", bg="black",fg="white",command=self.clear)
         clear_btn.grid(column=2,row=7)
 
         window.mainloop()
@@ -71,6 +71,11 @@ class TipCalculator():
 
         final_bill = pre_tip+tip_amount_entry
         self.total_cost.set(final_bill)
+
+    def clear(self):
+        self.total_cost.set("")
+        self.meal_cost.set("")
+        self.tip.set("")
 
 
 TipCalculator()
