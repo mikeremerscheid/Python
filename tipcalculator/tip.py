@@ -38,7 +38,7 @@ class TipCalculator():
         twenty_percent_tip.grid(column=0, row=4)
         twentyfive_percent_tip = Radiobutton(window,text="25%", variable = self.tip_percent, value = 25)
         twentyfive_percent_tip.grid(column=0, row=5)
-        thirty_percent_tip =     Radiobutton(window,text="30%", variable = self.tip_percent, value=30)
+        thirty_percent_tip =     Radiobutton(window,text="30%", variable = self.tip_percent, value = 30)
         thirty_percent_tip.grid(column=0,row=6)
 
         #Tip Amount 
