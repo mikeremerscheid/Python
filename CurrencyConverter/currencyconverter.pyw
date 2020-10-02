@@ -41,3 +41,7 @@ class CurrencyConverter: # Create class
         self.convertedAmountVar.set("")
         
 CurrencyConverter()
+        
+    
+    
+        
