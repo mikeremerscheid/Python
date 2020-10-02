@@ -25,7 +25,7 @@ class App(tk.Tk):
     def run(self):
         self.mainloop()
 
-#set miliseconds time between slides
+#set milliseconds time between slides
 delay = 3500
 #get a series of gif images you have in the working folder 
 #or use full path , or set directory to where images are 
